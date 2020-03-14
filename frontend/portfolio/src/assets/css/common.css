@@ -1,0 +1,98 @@
+#app {
+    font-family: 'Shadows Into Light', cursive, 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2c3e50;
+    height: 100%;
+    color: white;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+header {
+    background-color: black;
+    position: relative;
+}
+
+header a {
+    padding-left: 15px
+}
+
+.reset-margin {
+    margin: 0;
+    padding: 0;
+}
+
+.side-menu {
+    padding-right: 0px;
+}
+
+.h-90 {
+    height: 90%;
+}
+
+.h-10 {
+    height: 10%;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    color: white;
+}
+
+.selected {
+    font-size: 2rem;
+}
+
+
+/* h1.name {
+    margin-top: -5%
+} */
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #707070;
+    text-decoration: none;
+}
+
+a.home-btn {
+    font-size: 1.5rem
+}
+
+.bg-1 {
+    background: url("../mountain.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+img {
+    height: 100%;
+    width: auto;
+}
+
+h1.title {
+    position: absolute;
+}
