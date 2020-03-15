@@ -11,10 +11,10 @@
       <div class="row h-100 reset-margin" id="main-area">
           <div class="side-menu col-md-2">
               <ul>
-                <li><router-link to="/">HOME</router-link></li>
-                <li><router-link to="/work">WORK</router-link></li>
-                <li><router-link to="/aboutMe">ABOUT ME</router-link></li>
-                <li><router-link to="/contact">CONTACT</router-link></li>
+                <router-link to="/" tag="li" exact>HOME</router-link>
+                <router-link to="/work" tag="li" exact>WORK</router-link>
+                <router-link to="/aboutMe" tag="li" exact>ABOUT ME</router-link>
+                <router-link to="/contact" tag="li" exact>CONTACT</router-link>
               </ul>
               <div class="scroll-down">
                   <p>SCROLLDOWN</p>
@@ -34,12 +34,20 @@
 <script>
 
 export default {
-  name: 'App'
+  name: 'App',
+  data: function(){
+    return {
+      isActive: true
+    }
+  }
 }
 </script>
 
 <style>
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
 
+.router-link-active{
+  font-size: 2rem;
+}
 
 </style>
