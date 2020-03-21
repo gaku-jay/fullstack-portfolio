@@ -1,98 +1,98 @@
 #app {
-    font-family: 'Shadows Into Light', cursive, 'Avenir', Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    color: #2c3e50;
-    height: 100%;
-    color: white;
+  font-family: 'Shadows Into Light', cursive, 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+  height: 100vh;
+  color: white;
 }
 
-html {
-    height: 100%;
-}
-
+html,
 body {
-    height: 100%;
+  height: 100vh;
 }
 
 header {
-    background-color: black;
-    position: relative;
+  background-color: black;
+  position: relative;
 }
 
 header a {
-    padding-left: 15px
+  padding-left: 15px;
 }
 
 .reset-margin {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .side-menu {
-    padding-right: 0px;
+  padding-right: 0px;
 }
 
 .h-90 {
-    height: 90%;
+  height: 90%;
 }
 
 .h-10 {
-    height: 10%;
+  height: 10%;
 }
 
 ul {
-    list-style: none;
-    padding-left: 0;
-    color: white;
+  list-style: none;
+  padding-left: 0;
+  color: white;
+  -webkit-filter: drop-shadow(5px 5px 5px #000000);
+          filter: drop-shadow(5px 5px 5px #000000);
 }
 
 .selected {
-    font-size: 2rem;
+  font-size: 2rem;
 }
-
 
 /* h1.name {
     margin-top: -5%
 } */
-
 a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 a:visited {
-    color: white;
+  color: white;
 }
 
-a:hover {
-    color: #707070;
-    text-decoration: none;
-}
-
-a.home-btn {
-    font-size: 1.5rem
+a:hover,
+li:hover {
+  color: #707070;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .bg-1 {
-    background: url("../mountain.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+  background: url("../mountain.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 h1 {
-    font-size: 4rem;
+  font-size: 4rem;
+  -webkit-filter: drop-shadow(5px 5px 5px #000000);
+          filter: drop-shadow(5px 5px 5px #000000);
 }
 
 p {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 img {
-    height: 100%;
-    width: auto;
+  height: 100%;
+  width: auto;
+  -webkit-filter: drop-shadow(5px 5px 5px #000000);
+          filter: drop-shadow(5px 5px 5px #000000);
 }
 
 h1.title {
-    position: absolute;
+  position: absolute;
 }
+/*# sourceMappingURL=common.css.map */

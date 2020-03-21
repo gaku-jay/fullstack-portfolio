@@ -1,9 +1,11 @@
+
 <template>
     <div id="aboutMe" class="row h-100">
         <h1 class="title">ABOUT ME</h1>
+        
         <div id="profile-pic-area" class="col-md-4 h-100 w-100  d-flex justify-content-end align-items-center">
             <div class="prof-size">
-                <img class=" " :src="profile_image_src"/>
+                <img :src="profile_image_src"/>
             </div>
         </div>
         <div class="introduction-area col-md-8 h-100">
@@ -17,14 +19,15 @@
     </div>
 </template>
 
+
 <script>
 export default {
     data () {
         return {
-            profile_image_src: require("../assets/profile.jpg")
+            profile_image_src: require("../assets/profile.jpg"),
+            bounce: true
         }
     }
-    
 }
 </script>
 
@@ -33,7 +36,7 @@ export default {
     .prof-size {
         height: 50%;
     }
-    
+
     .introduction-bg {
         height: 100%;
         opacity: 0.5;
@@ -41,6 +44,9 @@ export default {
         margin-left: 5%;
         margin-right: 15%;
     }
+
+    
+
 
    
 </style>
