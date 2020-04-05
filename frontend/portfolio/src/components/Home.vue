@@ -18,11 +18,11 @@ export default {
   },
   mounted: function () {
     console.log("Home Created");
-    this.$parent.isHomeViewed = true;
+    this.$emit("home-created");
   },
   destroyed: function () {
     console.log("Home Destroyed");
-    this.$parent.isHomeViewed = false;
+    this.$emit("home-destroyed");
   } 
 }
 </script>

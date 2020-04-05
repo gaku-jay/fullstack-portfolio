@@ -10,6 +10,8 @@
 html,
 body {
     height: 100vh;
+    width: 100vw;
+    overflow: hidden;
 }
 
 header {
@@ -74,23 +76,16 @@ li:hover {
     background: url("../mountain.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
 }
 
 h1 {
     font-size: 4rem;
+    position: relative;
     filter: drop-shadow(5px 5px 5px #000000);
 }
 
 p {
     font-size: 1rem;
-}
-
-img {
-    height: 100%;
-    width: auto;
-    filter: drop-shadow(5px 5px 5px #000000);
-}
-
-h1.title {
-    position: absolute;
 }
